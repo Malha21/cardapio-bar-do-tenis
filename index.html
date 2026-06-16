@@ -172,6 +172,94 @@
       .hero h1 { font-size:36px; }
       .page-card { max-width:680px; padding:12px; }
     }
+
+    @media (max-width: 640px) {
+      header {
+        padding:10px 10px;
+      }
+      .topbar {
+        align-items:center;
+      }
+      .brand strong {
+        font-size:15px;
+        letter-spacing:.06em;
+      }
+      .brand span {
+        font-size:11px;
+      }
+      .actions {
+        gap:6px;
+      }
+      button, a.btn {
+        padding:8px 11px;
+        font-size:12px;
+      }
+      main {
+        padding:12px 8px 88px;
+      }
+      .hero {
+        padding:12px 6px 10px;
+      }
+      .hero h1 {
+        font-size:30px;
+        line-height:1.05;
+        letter-spacing:.08em;
+      }
+      .hero p {
+        font-size:13px;
+        line-height:1.45;
+        max-width:330px;
+      }
+      .nav-pages {
+        gap:7px;
+        padding:10px 2px 14px;
+        margin-left:-2px;
+        margin-right:-2px;
+        -webkit-overflow-scrolling:touch;
+      }
+      .nav-pages a {
+        font-size:12px;
+        padding:8px 10px;
+      }
+      .page-card {
+        border-radius:16px;
+        padding:7px;
+        margin-bottom:18px;
+      }
+      .page-card img {
+        border-radius:11px;
+      }
+      .caption {
+        font-size:11px;
+        padding:7px 4px 1px;
+      }
+      .floating {
+        bottom:12px;
+        padding:7px;
+        gap:8px;
+      }
+      .floating button {
+        min-width:44px;
+        padding:9px 13px;
+      }
+      .counter {
+        min-width:58px;
+        font-size:12px;
+      }
+    }
+
+    @media (max-width: 390px) {
+      .hero h1 {
+        font-size:26px;
+      }
+      .brand strong {
+        font-size:13px;
+      }
+      .page-card {
+        padding:6px;
+      }
+    }
+
     @media print {
       header, .hero, .nav-pages, .floating, .caption { display:none; }
       main { padding:0; max-width:none; }
@@ -190,15 +278,14 @@
       </div>
       <div class="actions">
         <a class="btn" href="#pagina-01">Início</a>
-        <a class="btn primary" href="cardapio_bar_do_tenis_2026_impressao.pdf" target="_blank">PDF</a>
       </div>
     </div>
   </header>
 
   <main>
     <section class="hero">
-      <h1>Cardápio 2026</h1>
-      <p>Navegue pelas páginas do cardápio. Para imprimir ou salvar, use o botão PDF.</p>
+      <h1>Bar do Tênis</h1>
+      <p>Navegue pelo cardápio completo, otimizado para celular, tablet e computador.</p>
     </section>
 
     <nav class="nav-pages" aria-label="Navegação de páginas">
